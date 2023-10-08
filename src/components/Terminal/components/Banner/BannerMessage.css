@@ -1,0 +1,17 @@
+#bmod-header {
+    color: #cb1431;
+}
+
+#bmod-name {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 57rem) {
+    #bmod-name {
+        flex-direction: column;
+    }
+    #bmod-header {
+        font-size: 10px;
+    }
+}

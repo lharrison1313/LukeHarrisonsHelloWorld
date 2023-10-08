@@ -1,0 +1,30 @@
+:root {
+    font-family: monospace;
+    line-height: 1.5;
+    font-weight: 400;
+    color: white;
+    background-color: #070d1d;
+}
+
+body {
+    margin: 0rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 2rem;
+}
+
+li::before {
+    content: '> ';
+    color: #cb1431; /* or whatever color you prefer */
+}
+
+pre {
+    margin: 0rem 0.5rem;
+    padding: 0rem;
+}
+
+a {
+    color: #127cc7;
+}

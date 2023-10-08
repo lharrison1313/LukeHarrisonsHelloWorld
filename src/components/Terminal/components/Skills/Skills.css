@@ -1,0 +1,22 @@
+.skill-level-beginner {
+    color: #127cc7;
+    font-weight: bold;
+}
+
+.skill-level-intermediate {
+    color: orange;
+    font-weight: bold;
+}
+
+.skill-level-advanced {
+    color: #cb1431;
+    font-weight: bold;
+}
+.skill-level-remainder {
+    color: grey;
+    margin-right: 1rem;
+}
+
+.skill-item::before {
+    content: none;
+}
