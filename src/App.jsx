@@ -4,10 +4,10 @@ import Terminal from './components/Terminal/Terminal'
 
 function App() {
     return (
-        <>
+        <div id="application-container">
             <Profile />
             <Terminal />
-        </>
+        </div>
     )
 }
 

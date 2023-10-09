@@ -1,12 +1,17 @@
 #root {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#application-container {
+    display: flex;
     flex-direction: row;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 3rem;
+    max-height: 47rem;
+    max-width: 100rem;
+    height: 90%;
+    width: 95%;
 }
 
 .item-prefix {
@@ -15,8 +20,10 @@
 }
 
 @media (max-width: 45rem) {
-    #root {
+    #application-container {
         flex-direction: column;
-        overflow: scroll;
+        width: 90%;
+        height: 95%;
+        max-height: none;
     }
 }
