@@ -8,7 +8,7 @@
 #application-container {
     display: flex;
     flex-direction: row;
-    max-height: 47rem;
+    max-height: 55rem;
     max-width: 100rem;
     height: 90%;
     width: 95%;
